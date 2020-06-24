@@ -1,0 +1,12 @@
+[package]
+name = "kubia"
+version = "0.1.0"
+authors = ["rusty <rusty@spoqa.com>"]
+edition = "2018"
+
+[dependencies]
+anyhow = "1.0.31"
+log = "0.4.8"
+simple_logger = "1.6.0"
+tokio = { version = "0.2.21", features = ["macros", "rt-threaded"] }
+warp = "0.2.3"
